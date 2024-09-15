@@ -27,13 +27,12 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("You name is:");
+		System.out.println("Nhap vao ten cua ban:");
 		String name = scanner.nextLine();
+		System.out.println("Nhap so diem cua ban");
+		double score =  scanner.nextDouble();
 		
-		System.out.println("You age is:");
-		int age = scanner.nextInt();
-		
-		System.out.println("My name is:"+name +", age = "+ age);
+		System.out.println("<Ten sinh vien:>"+name +"\n"+"<So diem:>"+ score);
 		scanner.close();
 	}
 }
